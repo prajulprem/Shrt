@@ -107,7 +107,7 @@ const Shorten = () => {
             </code>
             <button
               className="p-3 py-2 bg-blue-700 text-white cursor-pointer rounded-lg shadow-lg w-fit"
-              onClick={() => {copyToClipboard(generated)}
+              onClick={() => {copyToClipboard(generated)}}
             >
               Copy
             </button>
