@@ -61,7 +61,7 @@ const Shorten = () => {
     }
 
     try {
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText(text.toString());
       toast.success("Copied to clipboard!");
     } catch (err) {
       toast.error("Failed to copy.");
