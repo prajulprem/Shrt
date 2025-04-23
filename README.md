@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Shortly
+Shortly is a minimal and no-login-required URL shortener web app. Built with simplicity and speed in mind, users can easily shorten long URLs into custom short links, copy them, and share — all with zero hassle.
 
-## Getting Started
+## Features
+Custom short URL creation
 
-First, run the development server:
+- Automatic https:// addition if missing
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- Input validation to prevent empty fields
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Instant display of shortened URL
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- One-click copy to clipboard with toast notification
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Clean, responsive UI
 
-## Learn More
+- MongoDB as backend (via API routes)
 
-To learn more about Next.js, take a look at the following resources:
+- Deployed on Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Tech Stack
+- Next.js (App Router)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Tailwind CSS
 
-## Deploy on Vercel
+- MongoDB (via Mongoose or native driver)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- React Toastify
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Vercel for deployment
