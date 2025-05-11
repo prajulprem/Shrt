@@ -1,5 +1,5 @@
-# Shortly
-Shortly is a minimal and no-login-required URL shortener web app. Built with simplicity and speed in mind, users can easily shorten long URLs into custom short links, copy them, and share — all with zero hassle.
+# SHRT
+SHRT is a minimal and no-login-required URL shortener web app. Built with simplicity and speed in mind, users can easily shorten long URLs into custom short links, copy them, and share — all with zero hassle.
 
 ## Features
 Custom short URL creation
